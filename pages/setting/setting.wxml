@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="title">历史</view>
+  <view class="section">
+    <text>显示操作时间：</text>
+    <switch checked="{{ timeSetting }}" data-setting="timeSetting" bindchange="toggleSetting"/>
+  </view>
+</view>

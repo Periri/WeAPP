@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/lists/lists",
+    "pages/calendar/calendar",
+    "pages/log/log",
+    "pages/setting/setting"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Todo List Modified by BUFFXZ",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#9B9B9B",
+    "selectedColor": "#000",
+    "backgroundColor": "#F8F8F8",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "待办",
+        "iconPath": "images/tab/uncheck.png",
+        "selectedIconPath": "images/tab/uncheck@highlight.png"
+      },
+      {
+        "pagePath": "pages/calendar/calendar",
+        "text": "日历",
+        "iconPath": "images/tab/calendar.png",
+       "selectedIconPath": "images/tab/calendar@highlight.png"
+      },
+      {
+        "pagePath": "pages/log/log",
+        "text": "历史",
+        "iconPath": "images/tab/check.png",
+        "selectedIconPath": "images/tab/check@highlight.png"
+      },
+      {
+        "pagePath": "pages/setting/setting",
+        "text": "设置",
+        "iconPath": "images/tab/about.png",
+        "selectedIconPath": "images/tab/about@highlight.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
